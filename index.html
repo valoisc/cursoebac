@@ -5,34 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu portal de notícias</title>
-    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
     <header>
         <h1>Meu portal de notícias</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
-                </li>
-                <li>
-                    <a href="#economy" title="Ir para a seção de notícias">Economia</a>
-                </li>
-                <li>
-                    <a href="#entertainment" title="Ir para a seção de notícias">Entretenimento</a>
-                </li>
-                <li>
-                    <a href="#tech" title="Ir para a seção de notícias">Tecnologia</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
+                    </li>
+                    <li>
+                        <a href="#economy" title="Ir para a seção de notícias">Economia</a>
+                    </li>
+                    <li>
+                        <a href="#entertainment" title="Ir para a seção de notícias">Entretenimento</a>
+                    </li>
+                    <li>
+                        <a href="#tech" title="Ir para a seção de notícias">Tecnologia</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
        <!-- PARTE ESPORTES -->
-    <section>
+    <section id="sports">
         <h2>Esportes</h2>
+        <div class="articles">
         <article>
-            <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
+            <div class="image">
+                <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
+                <div class="overlay"></div>
+            </div>
             <header>
                 <time>13/07/2022 às 12:35</time>
             </header>
@@ -43,7 +49,10 @@
             <a href="#" title="Leia a notícia completa">Ler mais</a>
         </article>
         <article>
-            <img src="./imagens/futebol-americano.jpg" alt="Jogador de futebol americano correndo com a bola na mão" />
+            <div class="image">
+                <img src="./imagens/futebol-americano.jpg" alt="Jogador de futebol americano correndo com a bola na mão" />
+                <div class="overlay"></div>
+            </div>
             <header>
                 <time>13/07/2022 às 12:35</time>
             </header>
@@ -54,7 +63,10 @@
             <a href="#" title="Leia a notícia completa">Ler mais</a>
         </article>
         <article>
-            <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+            <div class="image">
+                <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+                <div class="overlay"></div>
+            </div>
             <header>
                 <time>13/07/2022 às 12:35</time>
             </header>
@@ -65,7 +77,10 @@
             <a href="#" title="Leia a notícia completa">Ler mais</a>
         </article>
         <article>
-            <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+            <div class="image">
+                <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+                <div class="overlay"></div>
+            </div>
             <header>
                 <time>13/07/2022 às 12:35</time>
             </header>
@@ -75,15 +90,20 @@
             </p>
             <a href="#" title="Leia a notícia completa">Ler mais</a>
         </article>
+        </div>
     </section>
 
        <!-- PARTE ECONOMIA -->
-    <section>
+    <section id="economy">
         <h2>Economia</h2>
+        <div class="articles">
         <article>
-            <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
+            <div class="image">
+                <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
+                <div class="overlay"></div>
+            </div>
             <header>
-                <time>13/07/2022 às 12:35</time>
+                <time class="creation-date">13/07/2022 às 12:35</time>
             </header>
             <h3>Dólar em alta de 0.50%</h3>
             <p>
@@ -92,7 +112,10 @@
             <a href="#" title="Leia a notícia completa">Ler mais</a>
         </article>
         <article>
-            <img src="./imagens/euro.jpg" alt="Várias notas de euro" />
+            <div class="image">
+                <img src="./imagens/euro.jpg" alt="Várias notas de euro" />
+                <div class="overlay"></div>
+            </div>
             <header>
                 <time>13/07/2022 às 12:35</time>
             </header>
@@ -103,7 +126,10 @@
             <a href="#" title="Leia a notícia completa">Ler mais</a>
         </article>
         <article>
-            <img src="./imagens/petroleo.jpg" alt="Extração de petróleo" />
+            <div class="image">
+                <img src="./imagens/petroleo.jpg" alt="Extração de petróleo" />
+                <div class="overlay"></div>
+            </div>
             <header>
                 <time>13/07/2022 às 12:35</time>
             </header>
@@ -113,13 +139,18 @@
             </p>
             <a href="#" title="Leia a notícia completa">Ler mais</a>
         </article>
+        </div>
     </section>
 
        <!-- PARTE ENTRETENIMENTO -->
-    <section>
+    <section id="entertainment">
         <h2>Entretenimento</h2>
+        <div class="articles">        
         <article>
-            <img src="./imagens/show.jpg" alt="Grande Show" />
+            <div class="image">
+                <img src="./imagens/show.jpg" alt="Grande Show" />
+                <div class="overlay"></div>
+            </div>
             <header>
                 <time>07/05/2024 às 12:35</time>
             </header>
@@ -130,7 +161,10 @@
             <a href="#" title="Leia a notícia completa">Ler mais</a>
         </article>
         <article>
-            <img src="./imagens/show.jpg" alt="Grande show acontecendo" />
+            <div class="image">
+                <img src="./imagens/show.jpg" alt="Grande show acontecendo" />
+                <div class="overlay"></div>
+            </div>
             <header>
                 <time>07/05/2024 às 12:35</time>
             </header>
@@ -141,7 +175,10 @@
             <a href="#" title="Leia a notícia completa">Ler mais</a>
         </article>
         <article>
-            <img src="./imagens/show2.jpg" title="Vista aérea de um show" />
+            <div class="image">
+                <img src="./imagens/show2.jpg" title="Vista aérea de um show" />
+                <div class="overlay"></div>
+            </div>
             <header>
                 <time>07/05/2024 às 12:35</time>
             </header>
@@ -152,7 +189,10 @@
             <a href="#" title="Leia a notícia completa">Ler mais</a>
         </article>
         <article>
-            <img src="./imagens/show3.jpg" title="Foto de Grande show" />
+            <div class="image">
+                <img src="./imagens/show3.jpg" title="Foto de Grande show" />
+                <div class="overlay"></div>
+            </div>
             <header>
                 <time>07/05/2024 às 12:35</time>
             </header>
@@ -162,13 +202,18 @@
             </p>
             <a href="#" title="Leia a notícia completa">Ler mais</a>
         </article>
+        </div>
     </section>
 
     <!-- PARTE TECH -->
-    <section>
+    <section id="tech">
         <h2>Tech </h2>
+        <div class="articles">
         <article>
-            <img src="./imagens/tech1.jpg" alt="Iphone 20 Lançado hoje" />
+            <div class="image">
+                <img src="./imagens/tech1.jpg" alt="Iphone 20 Lançado hoje" />
+                <div class="overlay"></div>
+            </div>
             <header>
                 <time>07/05/2024 às 12:35</time>
             </header>
@@ -179,7 +224,10 @@
             <a href="#" title="Leia a notícia completa">Ler mais</a>
         </article>
         <article>
-            <img src="./imagens/tech2.jpg" alt="iphone Double" />
+            <div class="image">
+                <img src="./imagens/tech2.jpg" alt="iphone Double" />
+                <div class="overlay"></div>
+            </div>
             <header>
                 <time>07/05/2024 às 12:35</time>
             </header>
@@ -190,7 +238,10 @@
             <a href="#" title="Leia a notícia completa">Ler mais</a>
         </article>
         <article>
-            <img src="./imagens/tech3.jpg" title="iPhone zFlip" />
+            <div class="image">
+                <img src="./imagens/tech3.jpg" title="iPhone zFlip" />
+                <div class="overlay"></div>
+            </div>
             <header>
                 <time>07/05/2024 às 12:35</time>
             </header>
@@ -201,7 +252,11 @@
             <a href="#" title="Leia a notícia completa">Ler mais</a>
         </article>
         <article>
-            <img src="./imagens/tech4.jpg" title="Xiaomi lança novo celular" />
+            <div class="image">
+                <img src="./imagens/tech4.jpg" title="Xiaomi lança novo celular" />
+                <div class="overlay"></div>
+            </div>
+
             <header>
                 <time>13/07/2022 às 12:35</time>
             </header>
@@ -211,6 +266,7 @@
             </p>
             <a href="#" title="Leia a notícia completa">Ler mais</a>
         </article>
+        </div>
     </section>
 </body>
 </html>
